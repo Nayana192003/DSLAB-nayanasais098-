@@ -47,7 +47,7 @@ int checkIfOperand(char ch) {
 
 // Fucntion to compare precedence
 // If we return larger value means higher precedence 
-int precedence(char ch) 
+int precedence(char ch) 345+*975/-+
 { 
     switch (ch) 
     { 
