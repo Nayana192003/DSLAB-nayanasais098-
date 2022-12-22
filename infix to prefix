@@ -7,17 +7,20 @@ int top = -1;
 char stack[MAX];
 
 // checking if stack is full
-int isFull() {
+int isFull()
+{
     return top == MAX - 1;
 } 
 
 // checking is stack is empty
-int isEmpty() { 
+int isEmpty() 
+{ 
     return top == -1; 
 }
 
 // Push function here, inserts value in stack and increments stack top by 1
-void push(char item) {
+void push(char item)
+{
     if (isFull()) 
         return; 
 	top++;
@@ -25,7 +28,8 @@ void push(char item) {
 }
 
 // Function to remove an item from stack.  It decreases top by 1 
-int pop() { 
+int pop()
+{ 
     if (isEmpty()) 
         return INT_MIN; 
         
@@ -34,7 +38,8 @@ int pop() {
 } 
 
 // Function to return the top from stack without removing it 
-int peek(){ 
+int peek()
+{ 
     if (isEmpty()) 
         return INT_MIN; 
     return stack[top]; 
