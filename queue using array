@@ -78,16 +78,16 @@ int main()//main function
     		scanf("%d",&choice);//operation input from user
     		switch(choice)
     		{
-      		case 1: enqueue();
-      		break;
-      		case 2: dequeue();
-              	break;
-      		case 3: display();
-              	break;
-      		case 4: exit(0);
-      		default: printf("Invalid choice\n");
-              	break;
-     	}   
+			case 1: enqueue();
+			break;
+			case 2: dequeue();
+			break;
+			case 3: display();
+			break;
+			case 4: exit(0);
+			default: printf("Invalid choice\n");
+			break;
+     		}   
    	}
   	return 0;
 } 
